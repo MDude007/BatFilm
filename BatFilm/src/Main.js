@@ -18,8 +18,8 @@ const MyStack = () => {
                 title: "BatFilm",
                 headerTitleStyle: {
                     color: 'white',
-                    fontFamily: 'Avenir',
-                    fontSize: 22,
+                    fontFamily: 'Didot',
+                    fontSize: 26,
                     fontWeight: 'bold'
                 },
                 headerStyle: {

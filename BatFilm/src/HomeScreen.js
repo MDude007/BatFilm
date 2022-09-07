@@ -55,7 +55,7 @@ const Home = () => {
     return (
         <LinearGradient style={{ flex: 1 }} colors={['#ffafbd', '#ffc3a0']}>
             <SafeAreaView style={{ flex: 1, paddingTop: 20 }}>
-                <View style={{ flex: 1, paddingTop: 20 }}>
+                <View style={{ flex: 1, paddingTop: 30 }}>
                     <FlatList
                         data={currPageData}
                         keyExtractor={(item) => item.imdbID}
