@@ -13,7 +13,7 @@ const Splash = () => {
                 source={require('./assets/batFilmSplash.json')}
                 autoPlay={true}
                 loop={false}
-                speed={2}
+                speed={2.5}
                 onAnimationFinish={() => navigation.replace("Home")}
 
             />
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'white'
+        backgroundColor: '#ffdde1'
     }
 })
 
