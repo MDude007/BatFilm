@@ -27,7 +27,7 @@ const ModalComponent = ({ selectedItem, onCloseModal }) => {
 
                 <View style={{ alignItems: 'center', marginHorizontal: 20, borderRadius: 20, marginTop: 10, padding: 10, borderWidth: 2, borderColor: '#05324d' }}>
                     <Text style={{ fontFamily: 'Avenir', fontSize: 20, fontWeight: 'bold', color: '#05324d', lineHeight: 23 }}>{selectedItem.Title}</Text>
-                    <View style={{ justifyContent: 'space-between', flexDirection: 'row', marginTop: 10 }}>
+                    <View style={{ justifyContent: 'space-between', flexDirection: 'row', marginTop: 10, marginHorizontal: 20 }}>
                         <Text style={{ flex: 1, fontFamily: 'Avenir', fontSize: 14 }}>{selectedItem.Year}</Text>
                         <Text style={{ fontFamily: 'Avenir', fontSize: 14 }}>{selectedItem.Type}</Text>
                     </View>

@@ -86,6 +86,7 @@
 		13B07FAE1A68108700A75B9A /* BatFilm */ = {
 			isa = PBXGroup;
 			children = (
+				EB97B7E128C9EC84006B37B6 /* Images.xcassets */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -146,6 +147,13 @@
 				AAC9471B769FB3B001BC396B /* Pods-BatFilm-BatFilmTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB97B7E128C9EC84006B37B6 /* Images.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images.xcassets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

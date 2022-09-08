@@ -14,7 +14,6 @@ const Home = () => {
     const [modalState, setModalState] = useState(false)
     const [currPageNum, setCurrPageNum] = useState(1)
 
-
     useEffect(() => {
         fetch("https://www.omdbapi.com/?s=Batman&apikey=eeefc96f&page=1")
             .then((response) => response.json())
